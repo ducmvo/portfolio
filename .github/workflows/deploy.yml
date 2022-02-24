@@ -1,0 +1,30 @@
+name: gh-page-deployment
+on:
+  push:
+    branches:
+      - "main"
+jobs:
+  Build-Portfolio:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [15.x]
+    steps:
+      - name: CHECKOUT REPO
+        uses: actions/checkout@v2
+      - name: LIST FILE
+        run: |
+          ls ${{ github.workspace }}
+      - name: INSTALL
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: install # will run `yarn install` command
+      - name: BUILD
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: build # will run `yarn build` command
+      - name: DEPLOY
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+          with:
+            branch: gh-pages # The branch the action should deploy to.
+            folder: build # The folder the action should deploy.
