@@ -16,15 +16,15 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - name: INSTALL
-        uses: borales/actions-yarn@v2.3.0
+        uses: borales/actions-yarn@v3.0.0
         with:
           cmd: install # will run `yarn install` command
       - name: BUILD
-        uses: borales/actions-yarn@v2.3.0
+        uses: borales/actions-yarn@v3.0.0
         with:
           cmd: build # will run `yarn build` command
       - name: DEPLOY
-        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: build # The folder the action should deploy.
