@@ -15,7 +15,7 @@ function App() {
 			<div>My Portfolio</div>
 			<div style={{fontSize: '0.7rem'}}>
 				<a
-					href="https://github.com/pianote/"
+					href="https://github.com/ducmvo/"
 					style={{
 						textDecoration: 'none',
 						color: 'salmon'
