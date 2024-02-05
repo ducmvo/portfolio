@@ -41,18 +41,19 @@ function App() {
 					<p style={{ marginBottom: '0.3rem' }}>
 						Expected Graduation: March 2024
 					</p>
-					<p style={{ marginBottom: '0.3rem' }}> GPA: 3.92/4.0</p>
+					<p style={{ marginBottom: '0.3rem' }}><strong>GPA: 3.92</strong></p>
 				</div>
 				<div style={{ width: '100%' }}>
 					<p id="head" style={{ marginBottom: '0.3rem' }}>
-						BBA Finance
+						Computer Science Fundamentals Certificate
 					</p>
 					<p style={{ marginBottom: '0.3rem' }}>
-						University of Houston - Houston, TX
+						Seattle University - Seattle, TX
 					</p>
 					<p style={{ marginBottom: '0.3rem' }}>
-						Graduated: May 2015
+						Graduated: June 2022
 					</p>
+					<p style={{ marginBottom: '0.3rem' }}><strong>GPA: 4.0</strong></p>
 					<br />
 				</div>
 			</div>
@@ -98,8 +99,7 @@ function App() {
 				</p>
 				<ul>
 					<li>
-						Tutored and graded <strong>30+</strong> graduate students in an
-						<strong>Algorithms Analysis</strong> course.
+						Tutored and graded <strong>30+</strong> graduate students in an <strong>Algorithms</strong> course.
 					</li>
 					<li>
 						Hosted <strong>20</strong> weekly tutoring sessions to help students with
@@ -126,13 +126,10 @@ function App() {
 						vulnerable people in Seattle each week.
 					</li>
 					<li>
-						Migrated <strong>230,000</strong> data points from <strong>MySQL</strong> database to
-						<strong>Firestore No-SQL</strong> database.
+						Migrated <strong>230,000</strong> data points from <strong>MySQL</strong> database to <strong>Firestore No-SQL</strong> database.
 					</li>
 					<li>
-						Implemented caching using <strong>React Query</strong>, <strong>React Context</strong> and
-						<strong>Hooks</strong> that speeds up <strong>100x</strong> page load by removing
-						unnecessary data fetching at component level.
+						Implemented caching using <strong>React Query</strong>, <strong>React Context</strong> and <strong>Hooks</strong> that speeds up <strong>100x</strong> page load by removing unnecessary data fetching at component level.
 					</li>
 					<li>
 						Technologies: Typescript, React, NextJS, Jest, Firebase.
@@ -177,8 +174,7 @@ function App() {
 				</p>
 				<ul>
 					<li>
-						Implemented <strong>K-Means clustering</strong> algorithm using <strong>MPI</strong> and a
-						<strong>Map-Reduce</strong> parallelization strategy.
+						Implemented <strong>K-Means clustering</strong> algorithm using <strong>MPI</strong> and a <strong>Map-Reduce</strong> parallelization strategy.
 					</li>
 					<li>
 						Developed a <strong>Distributed Hash Table (DHT)</strong> with <strong>Consistent
