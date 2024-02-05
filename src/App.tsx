@@ -70,16 +70,16 @@ function App() {
 				</p>
 				<ul>
 					<li>
-						Designed and built a Deletion Module to free up 80% of
+						Designed and built a Deletion Module to free up <strong>80%</strong> of
 						database containing low-traffic Ads.
 					</li>
 					<li>
-						Developed Lambda function to transfer bulk data among
+						Developed <strong>Lambda</strong> function to transfer <strong>bulk data</strong> among
 						sub-systems using AWS services.
 					</li>
 					<li>
-						Completed the project 2 weeks ahead of schedule,
-						incorporating all stretched goals.
+						Completed the project <strong>2 weeks</strong> ahead of schedule,
+						incorporating all <strong>stretched goals</strong>.
 					</li>
 					<li>
 						Aim of the project: To enable Amazon to manage Ads
@@ -98,11 +98,11 @@ function App() {
 				</p>
 				<ul>
 					<li>
-						Tutored and graded 30+ graduate students in an
-						Algorithms Analysis course.
+						Tutored and graded <strong>30+</strong> graduate students in an
+						<strong>Algorithms Analysis</strong> course.
 					</li>
 					<li>
-						Hosted 20 weekly tutoring sessions to help students with
+						Hosted <strong>20</strong> weekly tutoring sessions to help students with
 						their coursework and exam preparation.
 					</li>
 				</ul>
@@ -122,16 +122,16 @@ function App() {
 
 				<ul>
 					<li>
-						Built a web app that currently serves hundreds of
+						Built a web app that <strong>currently serves hundreds</strong> of
 						vulnerable people in Seattle each week.
 					</li>
 					<li>
-						Migrated 230,000 data points from MySQL database to
-						Firestore No-SQL database.
+						Migrated <strong>230,000</strong> data points from <strong>MySQL</strong> database to
+						<strong>Firestore No-SQL</strong> database.
 					</li>
 					<li>
-						Implemented caching using React Query, React Context and
-						Hooks that speeds up 100x page load by removing
+						Implemented caching using <strong>React Query</strong>, <strong>React Context</strong> and
+						<strong>Hooks</strong> that speeds up <strong>100x</strong> page load by removing
 						unnecessary data fetching at component level.
 					</li>
 					<li>
@@ -151,16 +151,16 @@ function App() {
 				</p>
 				<ul>
 					<li>
-						Developed and deployed a REST API endpoint for database
+						Developed and deployed a <strong>REST API</strong> endpoint for database
 						operations used by internal systems.
 					</li>
 					<li>
-						Built a CI/CD pipeline using GitHub Actions, integrated
-						with Azure App Service & SQL Server.
+						Built a <strong>CI/CD</strong> pipeline using <strong>GitHub Actions</strong>, integrated
+						with <strong>Azure App Service</strong> & <strong>SQL Server</strong>.
 					</li>
 					<li>
 						Implemented a Cloud File Browser component integrated
-						with Egnyte Cloud File Storage.
+						with <strong>Egnyte Cloud File Storage</strong>.
 					</li>
 					<li>
 						Technologies: C#, ASP.NET, Azure App Service, SQL Server
@@ -177,13 +177,13 @@ function App() {
 				</p>
 				<ul>
 					<li>
-						Implemented K-Means clustering algorithm using MPI and a
-						Map-Reduce parallelization strategy.
+						Implemented <strong>K-Means clustering</strong> algorithm using <strong>MPI</strong> and a
+						<strong>Map-Reduce</strong> parallelization strategy.
 					</li>
 					<li>
-						Developed a Distributed Hash Table (DHT) with Consistent
-						Hashing technique used for mapping hashed keys to a
-						scalable set of nodes in a Chord System to support
+						Developed a <strong>Distributed Hash Table (DHT)</strong> with <strong>Consistent
+						Hashing</strong> technique used for mapping hashed keys to a
+						scalable set of nodes in a <strong>Chord</strong> System to support
 						massive data.
 					</li>
 					<li>Technologies: C++, Python, MPI</li>
@@ -200,16 +200,16 @@ function App() {
 
 				<ul>
 					<li>
-						Worked on an 8-person team, building a platform that
+						Worked on an <strong>8-person</strong> team, building a platform that
 						helps disadvantaged K-12 students develop critical life
 						skills and find success after high school.
 					</li>
 					<li>
-						Refactored Redux store to reduce complexity and increase
-						code coverage to 80%.
+						Refactored <strong>Redux</strong> store to reduce complexity and increase
+						code coverage to <strong>80%</strong>.
 					</li>
 					<li>
-						Invited to become a co-founder at the conclusion of the
+						Invited to become a <strong>co-founder</strong> at the conclusion of the
 						internship.
 					</li>
 				</ul>
