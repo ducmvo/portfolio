@@ -6,25 +6,31 @@ on:
 jobs:
   Build-Portfolio:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [15.x]
     steps:
       - name: CHECKOUT REPO
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+      
+      - name: SET NODE.JS 20.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.x
+
       - name: LIST FILE
         run: |
           ls ${{ github.workspace }}
+
       - name: INSTALL
-        uses: borales/actions-yarn@v3.0.0
+        uses: borales/actions-yarn@v4
         with:
           cmd: install # will run `yarn install` command
+
       - name: BUILD
-        uses: borales/actions-yarn@v3.0.0
+        uses: borales/actions-yarn@v4
         with:
           cmd: build # will run `yarn build` command
-      - name: DEPLOY
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
+
+      - name: DEPLOY 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: build # The folder the action should deploy.
