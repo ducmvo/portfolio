@@ -71,20 +71,13 @@ function App() {
 				</p>
 				<ul>
 					<li>
-						Designed and built a Deletion Module to free up <strong>80%</strong> of
-						database containing low-traffic Ads.
+						Designed and built a Deletion Module to free up 80% of database containing low-traffic Ads.
 					</li>
 					<li>
-						Developed <strong>Lambda</strong> function to transfer <strong>bulk data</strong> among
-						sub-systems using AWS services.
+						Developed Lambda function to move bulk data among sub-systems using DynamoDB Stream and Amazon SQS, managing failed transfers using dead letter queue.
 					</li>
 					<li>
-						Completed the project <strong>2 weeks</strong> ahead of schedule,
-						incorporating all <strong>stretched goals</strong>.
-					</li>
-					<li>
-						Aim of the project: To enable Amazon to manage Ads
-						globally on Bing & Google search engines.
+						Implemented optimistic locking and retry mechanism utilizing exponential backoff strategy.
 					</li>
 				</ul>
 			</div>
@@ -99,11 +92,10 @@ function App() {
 				</p>
 				<ul>
 					<li>
-						Tutored and graded <strong>30+</strong> graduate students in an <strong>Algorithms</strong> course.
+						Tutored and graded 30+ graduate students in an algorithm course.
 					</li>
 					<li>
-						Hosted <strong>20</strong> weekly tutoring sessions to help students with
-						their coursework and exam preparation.
+						Hosted 20 weekly tutoring sessions to help students with their coursework and exam preparation.
 					</li>
 				</ul>
 			</div>
@@ -112,31 +104,7 @@ function App() {
 			<hr />
 			<br />
 			<div id="header">SELECTED PROGRAMMING PROJECTS</div>
-			<div style={{ marginBottom: '1rem' }}>
-				<p style={{ display: 'flex' }}>
-					<span id="head">St. Francis House Seattle | </span>
-					<span>Community Volunteer Project</span>
-					<span style={{ flex: 1 }}></span>
-					<span>Jan 2023 - Present</span>
-				</p>
-
-				<ul>
-					<li>
-						Built a web app that <strong>currently serves hundreds</strong> of
-						vulnerable people in Seattle each week.
-					</li>
-					<li>
-						Migrated <strong>230,000</strong> data points from <strong>MySQL</strong> database to <strong>Firestore No-SQL</strong> database.
-					</li>
-					<li>
-						Implemented caching using <strong>React Query</strong>, <strong>React Context</strong> and <strong>Hooks</strong> that speeds up <strong>100x</strong> page load by removing unnecessary data fetching at component level.
-					</li>
-					<li>
-						Technologies: Typescript, React, NextJS, Jest, Firebase.
-					</li>
-				</ul>
-			</div>
-
+			
 			<div>
 				<p style={{ display: 'flex' }}>
 					<span id="head">
@@ -148,19 +116,40 @@ function App() {
 				</p>
 				<ul>
 					<li>
-						Developed and deployed a <strong>REST API</strong> endpoint for database
-						operations used by internal systems.
+						Implemented auto reload interval for data re-fetching and component re-render in interactive server-side rendering Blazor Web App, eliminating manual page refreshes by 90%.
 					</li>
 					<li>
-						Built a <strong>CI/CD</strong> pipeline using <strong>GitHub Actions</strong>, integrated
-						with <strong>Azure App Service</strong> & <strong>SQL Server</strong>.
+						Implemented a File System Navigator component integrated with Egnyte Cloud File Storage API.
 					</li>
 					<li>
-						Implemented a Cloud File Browser component integrated
-						with <strong>Egnyte Cloud File Storage</strong>.
+						Built a CI/CD pipeline using GitHub Actions, integrated with Azure App Service & SQL Server.
 					</li>
 					<li>
 						Technologies: C#, ASP.NET, Azure App Service, SQL Server
+					</li>
+				</ul>
+			</div>
+
+			<div style={{ marginBottom: '1rem' }}>
+				<p style={{ display: 'flex' }}>
+					<span id="head">St. Francis House Seattle | </span>
+					<span>Community Volunteer Project</span>
+					<span style={{ flex: 1 }}></span>
+					<span>Jan 2023 - Present</span>
+				</p>
+
+				<ul>
+					<li>
+						Built a web app that currently operates and serves hundreds of people in Seattle each week.
+					</li>
+					<li>
+						Implemented caching using React Query, React Context and Hooks that speeds up 100x page load by removing unnecessary data fetching at component level.
+					</li>
+					<li>
+						Migrated 230,000 data points from MySQL database to Firebase by cleaning and extracting data into JSON format, followed by new schema transformation using Python.
+					</li>
+					<li>
+						Technologies: Typescript, React, NextJS, Jest, Firebase.
 					</li>
 				</ul>
 			</div>
@@ -174,15 +163,15 @@ function App() {
 				</p>
 				<ul>
 					<li>
-						Implemented <strong>K-Means clustering</strong> algorithm using <strong>MPI</strong> and a <strong>Map-Reduce</strong> parallelization strategy.
+						Implemented parallel bionic sorting and prefix scan in CUDA to process millions of floating-point numbers, utilizing GPGPU with SIMT execution model, achieving a over 100x speedup.
 					</li>
 					<li>
-						Developed a <strong>Distributed Hash Table (DHT)</strong> with <strong>Consistent
-						Hashing</strong> technique used for mapping hashed keys to a
-						scalable set of nodes in a <strong>Chord</strong> System to support
-						massive data.
+						Implemented K-Means Clustering using MPI and Map-Reduce parallelization strategy.
 					</li>
-					<li>Technologies: C++, Python, MPI</li>
+					<li>
+						Developed a Distributed Hash Table (DHT) with Consistent Hashing technique used for mapping hashed keys to a scalable set of nodes in a Chord System to support massive data.
+					</li>
+					<li>Technologies: C++, Python, MPI, CUDA</li>
 				</ul>
 			</div>
 
@@ -203,10 +192,6 @@ function App() {
 					<li>
 						Refactored <strong>Redux</strong> store to reduce complexity and increase
 						code coverage to <strong>80%</strong>.
-					</li>
-					<li>
-						Invited to become a <strong>co-founder</strong> at the conclusion of the
-						internship.
 					</li>
 				</ul>
 			</div>
