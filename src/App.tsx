@@ -19,8 +19,8 @@ function App() {
 				}}
 			>
 				Duc Vo |{' '}
-				<a href="mailto:dvo4@seattleu.edu">dvo4@seattleu.edu</a> |{' '}
-				<a href="tel:2532853038">253-285-3038</a>
+				<a href="mailto:dvo4@seattleu.edu">seine.acme0@icloud.com</a> |{' '}
+				<a href="tel:2532853038">503-446-2537</a>
 			</h2>
 			<div style={{ textAlign: 'center', textTransform: 'uppercase' }}>
 				<a href="https://linkedin.com/in/ducmvo">
@@ -36,30 +36,29 @@ function App() {
 			<div style={{ display: 'flex', flexDirection: 'row' }}>
 				<div style={{ width: '100%' }}>
 					<p id="head" style={{ marginBottom: '0.3rem' }}>
-						M.S. Computer Science
+						MS Computer Science, Software Engineering
 					</p>
 					<p style={{ marginBottom: '0.3rem' }}>
 						Seattle University - Seattle, WA
 					</p>
 					<p style={{ marginBottom: '0.3rem' }}>
-						Expected Graduation: March 2024
+						Graduated: March 2024
 					</p>
 					<p style={{ marginBottom: '0.3rem' }}>
-						<strong>GPA: 3.92</strong>
+						<strong>GPA: 3.93</strong>
 					</p>
 				</div>
 				<div style={{ width: '100%' }}>
 					<p id="head" style={{ marginBottom: '0.3rem' }}>
-						Computer Science Fundamentals Certificate
+						BBA Finance
 					</p>
 					<p style={{ marginBottom: '0.3rem' }}>
-						Seattle University - Seattle, TX
+						University of Houston - Houston, TX
 					</p>
 					<p style={{ marginBottom: '0.3rem' }}>
-						Graduated: June 2022
+						Graduated: May 2015
 					</p>
 					<p style={{ marginBottom: '0.3rem' }}>
-						<strong>GPA: 4.0</strong>
 					</p>
 					<br />
 				</div>
@@ -71,7 +70,7 @@ function App() {
 			<div id="header">WORK EXPERIENCE</div>
 			<div style={{ marginBottom: '1rem' }}>
 				<p style={{ display: 'flex' }}>
-					<span id="head">Software Engineering Intern | </span>
+					<span id="head">Software Development Engineer Intern | </span>
 					<span>Amazon</span>
 					<span style={{ flex: 1 }}></span>
 					<span>Jun 2023 - Sep 2023</span>
